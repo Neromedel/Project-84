@@ -46,18 +46,16 @@ function my_keydown(e)
 			document.getElementById("d1").innerHTML="You pressed Arrow key";
 			console.log("arrowkey");
 			}	
+		
 		}
 
 
-		if(keyPressed =27)
-			{
-			specialkey();
-			document.getElementById("d1").innerHTML="You pressed Special key";
-			console.log("specialkey");
-			}	
-		
-	
+			
 
+
+
+
+			
 function aplhabetkey()
 {
 	img_image="Alpkey.png";
