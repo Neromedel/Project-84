@@ -33,21 +33,27 @@ function my_keydown(e)
 		console.log("aphlabetkey");
 		}
 	
-		if(keyPressed >=48 && keyPressed<=57)
+		else if(keyPressed >=48 && keyPressed<=57)
 		{
 		numberkey();
 		document.getElementById("d1").innerHTML="You pressed Number key";
 		console.log("numberkey");
 		}
 
-		if(keyPressed >=37 && keyPressed<=40)
+		else if(keyPressed >=37 && keyPressed<=40)
 			{
 			arrowkey();
 			document.getElementById("d1").innerHTML="You pressed Arrow key";
 			console.log("arrowkey");
 			}	
-		
+			else{
+				otherkey();
+				document.getElementById("d1").innerHTML="You pressed Other Key";
+				console.log("otherkey");
+			}
 		}
+
+		
 
 
 			
